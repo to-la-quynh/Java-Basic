@@ -8,7 +8,7 @@ public class Function {
      * @param arr          Mảng cần khởi tạo dữ liệu
      * @param number_value Giá trị được gán cho từng phần tử
      */
-    static void inputData(int arr[], int number_value) {
+    public static void inputData(int arr[], int number_value) {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = number_value;
         }
@@ -19,7 +19,7 @@ public class Function {
      *
      * @param arr Mảng cần in ra màn hình
      */
-    static void printData(int arr[]) {
+    public static void printData(int arr[]) {
         for (int i = 0; i < arr.length; i++) {
             System.out.println("Phần tử thứ " + (i + 1) + " = " + arr[i]);
         }
@@ -31,7 +31,7 @@ public class Function {
      * @param arr Mảng số nguyên cần tìm giá trị nhỏ nhất
      * @return Giá trị nhỏ nhất trong mảng
      */
-    static int getMin(int arr[]) {
+    public static int getMin(int arr[]) {
         int min = arr[0];
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] < min) {
