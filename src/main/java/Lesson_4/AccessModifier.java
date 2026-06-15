@@ -23,6 +23,18 @@ public class AccessModifier {
         System.out.println("Hello");
     }
 
+    protected void msgSuccess(){
+        System.out.println("This is msgSuccess at AccessModifier");
+    }
+
+    protected void msgError(){
+        System.out.println("This is msgError at AccessModifier");
+    }
+
+    public int cong2so(int a, int b){
+        return a + b;
+    }
+
     public static void main(String[] args) {
         //Private
         A_Private obj = new A_Private();
