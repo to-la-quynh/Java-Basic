@@ -3,7 +3,7 @@ package Lesson_4;
 /**
  * Class TestClass chứa thuộc tính và phương thức xử lý dữ liệu.
  */
-class TestClass{
+class TestClass {
     //Thuộc tính của Class TestClass
     public int number1 = 10;
     public int number2 = 20;
@@ -15,7 +15,7 @@ class TestClass{
      * @param b Số thứ hai
      * @return Tổng của a và b
      */
-    public int sum(int a, int b){
+    public int sum(int a, int b) {
         return a + b;
     }
 
@@ -25,21 +25,21 @@ class TestClass{
      * @param a Số thứ nhất
      * @param b Số thứ hai
      */
-    public void print(int a, int b){
+    public void print(int a, int b) {
         System.out.println(sum(a, b));
     }
 }
 
-class Student{
+class Student {
     public String name;
     public int age;
 
-    public void display(){
+    public void display() {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
     }
 
-    public void getInformation(){
+    public void getInformation() {
 
     }
 }
@@ -60,5 +60,9 @@ public class ClassAndObject {
         s.name = "Ka";
         s.age = 20;
         s.display();
+
+        //check protected modifier
+        AccessModifier pro = new AccessModifier();
+        pro.msg();
     }
 }
