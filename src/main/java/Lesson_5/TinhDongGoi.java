@@ -1,5 +1,9 @@
 package Lesson_5;
 
+/**
+ * ẩn giấu thông tin
+ * giới hạn sử dụng: chỉ cho read-only or write-only
+ */
 public class TinhDongGoi {
     private String name;
 
